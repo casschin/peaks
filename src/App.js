@@ -224,6 +224,7 @@ export default function App() {
                 </button>{" "}
                 <button
                   onClick={() => {
+                    peakInstance.points.removeByTime(currentPoint);
                     setPoints(points.filter(point => point !== currentPoint));
                   }}
                 >
