@@ -199,6 +199,7 @@ export default function App() {
               const duration = peakInstance.player.getDuration();
               if (valueInt > 0 && valueInt < duration) {
                 setPoints([...points, valueInt]);
+                peakInstance.points.add({ time: valueInt });
                 pointInputRef.current.value = "";
               } else {
                 alert("point is outside the length of the audio");
