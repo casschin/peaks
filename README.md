@@ -1,4 +1,4 @@
-# waveform
+# Waveform!
 
 ## generate peak data
 
