@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   reuse:
-    uses: casschin/peaks/.github/workflows/call-workflow.yml@992191f8ed50686543355e1b1db0b9abfdf1feb8
+    uses: casschin/peaks/.github/workflows/call-workflow2.yml@992191f8ed50686543355e1b1db0b9abfdf1feb8
 
   build:
     # The type of runner that the job will run on
